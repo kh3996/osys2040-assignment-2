@@ -4,7 +4,7 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   // ssl: true,
   user: 'osys1000',
-  host: '192.168.226.129',
+  host: 'localhost',
   database: 'chat_server',
   password: '1q1q1q1q',
   port: '5432'

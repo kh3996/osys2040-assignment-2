@@ -3,7 +3,7 @@ const { Pool } = require('pg')
 const pool = new Pool({
 //  connectionString: process.env.DATABASE_URL,
 //  ssl: true,
-  user: 'postgres',
+  user: 'osys1000',
 //  host: '127.0.0.1',
   host: 'localhost',
   database: 'chat_server',

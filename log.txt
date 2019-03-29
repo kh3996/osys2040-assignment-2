@@ -1,0 +1,44 @@
+[OKAY] package.json file found - trying 'npm start'
+[OKAY] package.json file found - trying 'npm start'
+2:06:53 PM web.1 |  > osys2040-assignment-2@0.0.0 start /home/osys1000/myapp/osys2040-assignment-2
+2:06:53 PM web.1 |  > node ./src/server.js
+2:06:53 PM web.1 |  /home/osys1000/myapp/osys2040-assignment-2/src/middleware/signed-in-as.js:6
+2:06:53 PM web.1 |  module.exports = async function(req, res, next) {
+2:06:53 PM web.1 |                         ^^^^^^^^
+2:06:53 PM web.1 |  SyntaxError: Unexpected token function
+2:06:53 PM web.1 |      at createScript (vm.js:56:10)
+2:06:53 PM web.1 |      at Object.runInThisContext (vm.js:97:10)
+2:06:53 PM web.1 |      at Module._compile (module.js:549:28)
+2:06:53 PM web.1 |      at Object.Module._extensions..js (module.js:586:10)
+2:06:53 PM web.1 |      at Module.load (module.js:494:32)
+2:06:53 PM web.1 |      at tryModuleLoad (module.js:453:12)
+2:06:53 PM web.1 |      at Function.Module._load (module.js:445:3)
+2:06:53 PM web.1 |      at Module.require (module.js:504:17)
+2:06:53 PM web.1 |      at require (internal/module.js:20:19)
+2:06:53 PM web.1 |      at Object.<anonymous> (/home/osys1000/myapp/osys2040-assignment-2/src/app.js:19:9)
+2:06:53 PM web.1 |  npm ERR!
+2:06:53 PM web.1 |   Linux 3.10.0-957.5.1.el7.x86_64
+2:06:53 PM web.1 |  npm ERR! argv "/usr/bin/node" "/bin/npm" "start"
+2:06:53 PM web.1 |  npm ERR! node v6.16.0
+2:06:53 PM web.1 |  npm ERR! npm  v3.10.10
+2:06:53 PM web.1 |  npm ERR! code ELIFECYCLE
+2:06:53 PM web.1 |  npm 
+2:06:53 PM web.1 |  ERR! osys2040-assignment-2@0.0.0 start: `node ./src/server.js`
+2:06:53 PM web.1 |  npm ERR! Exit status 1
+2:06:53 PM web.1 |  npm ERR! 
+2:06:53 PM web.1 |  npm ERR! Failed at the osys2040-assignment-2@0.0.0 start script 'node ./src/server.js'.
+2:06:53 PM web.1 |  npm ERR! Make sure you have the latest version of node.js and npm installed.
+2:06:53 PM web.1 |  npm ERR! If you do, this is most likely a problem with the osys2040-assignment-2 package,
+2:06:53 PM web.1 |  npm ERR! not with npm itself.
+2:06:53 PM web.1 |  npm ERR! Tell the author that this fails on your system:
+2:06:53 PM web.1 |  npm 
+2:06:53 PM web.1 |  ERR!     node ./src/server.js
+2:06:53 PM web.1 |  npm ERR! You can get information on how to open an issue for this project with:
+2:06:53 PM web.1 |  npm ERR!     npm bugs osys2040-assignment-2
+2:06:53 PM web.1 |  npm ERR! Or if that isn't available, you can get their info via:
+2:06:53 PM web.1 |  npm ERR!     npm owner ls osys2040-assignment-2
+2:06:53 PM web.1 |  npm ERR! There is likely additional logging output above.
+2:06:53 PM web.1 |  npm ERR! Please include the following file with any support request:
+2:06:53 PM web.1 |  npm
+2:06:53 PM web.1 |   ERR!     /home/osys1000/myapp/osys2040-assignment-2/npm-debug.log
+[DONE] Killing all processes with signal  SIGINT

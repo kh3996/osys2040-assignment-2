@@ -1,0 +1,1000 @@
+  174  cd www
+  175  ls
+  176  cd html
+  177  ls
+  178  sudo systemctl enable httpd.service
+  179  sudo systemctl restart httpd.service
+  180  clear
+  181  sudo systemctl enable httpd.service
+  182  sudo systemctl start httpd.service
+  183  clear
+  184  sudo yum clean all
+  185  sudo yum -y update
+  186  sudo yum -y install httpd
+  187  clear
+  188  sudo systemctl start httpd
+  189  cd /etc/httpd/conf.d
+  190  ls
+  191  cd ..
+  192  cd conf
+  193  ls
+  194  rm vhost.conf 
+  195  ls
+  196  sudo rm vhost.conf 
+  197  sudo rm httpd.conf
+  198  sudo mv httpd.conf.backup httpd.conf
+  199  ls
+  200  clear
+  201  cd
+  202  clear
+  203  sudo cirewall-cmd --permanent --add-port=80/tcp
+  204  clear
+  205  sudo firewall-cmd --permanent --add-port=80/tcp
+  206  sudo firewall-cmd --permanent --add-port=443/tcp
+  207  sudo firewall-cmd --reload
+  208  clear
+  209  sudo systemctl start httpd
+  210  sudo systemctl enable httpd
+  211  sudo reboot
+  212  ls
+  213  whoami
+  214  pwd
+  215  ls
+  216  clear
+  217  lynx 127.0.0.1
+  218  clear
+  219  sudo httpd-cmd --state
+  220  sudo httpd.service-cmd --state
+  221  sudo firewall-cmd --state
+  222  httpd
+  223  sudo httpd --state
+  224  sudo service httpd status
+  225  clear
+  226  lynx 127.0.0.1
+  227  cd /var/www/html/
+  228  ls
+  229  ll
+  230  sudo vi index.html
+  231  vi index.html 
+  232  sudo vi index.html 
+  233  cd
+  234  clear
+  235  ifconfig
+  236  clear
+  237  ip addr
+  238  history
+  239  ip addr
+  240  sudo poweroff
+  241  ls
+  242  cd bin
+  243  ls
+  244  clear
+  245  ls
+  246  clear
+  247  vi assign7_woojin.sh
+  248  clear
+  249  vi assign7_woojin.sh
+  250  ls 
+  251  clear
+  252  ls assign7
+  253  ls assign7*
+  254  clear
+  255  ls assign7*
+  256  clear
+  257  chmod 767 assign7_woojin.sh
+  258  ls -la assign7*
+  259  vi assign7_woojin.sh 
+  260  exit
+  261  cd bin
+  262  vi assign7_woojin.sh
+  263  assign7_woojin.sh 
+  264  ls
+  265  cd bin
+  266  cd ..
+  267  ls
+  268  pwd
+  269  cd ..
+  270  ls
+  271  cd osys1000/
+  272  cd home
+  273  ls
+  274  cd bin
+  275  ls
+  276  cd val2
+  277  ls
+  278  cd ..
+  279  rm val2
+  280  rm -r val2
+  281  ls
+  282  vi assign7_woojin.sh 
+  283  assign7_woojin.sh 
+  284  assign7_woojin.sh
+  285  ls
+  286  rm -rf test
+  287  ls
+  288  vi assign7_woojin.sh 
+  289  mkdir source
+  290  cd source/
+  291  touch source.txt
+  292  ll
+  293  vi source.txt 
+  294  ll
+  295  cd ..
+  296  ls
+  297  assign7_woojin.sh 
+  298  cd output/
+  299  ls
+  300  ll
+  301  ls
+  302  cd ..
+  303  rm -rf output/
+  304  vi assign7_woojin.sh 
+  305  assign7_woojin.sh 
+  306  cd output/
+  307  ls
+  308  ll
+  309  cd ..
+  310  rm -rf output
+  311  tar -cvf source.tar ./
+  312  ls
+  313  rm source
+  314  rm source.tar 
+  315  vi assign7_woojin.sh 
+  316  ls
+  317  assign7_woojin.sh 
+  318  ls
+  319  cd output/
+  320  ls
+  321  rm -rf source.tar 
+  322  cd ..
+  323  ls
+  324  rm -rf output
+  325  vi assign7_woojin.sh 
+  326  assign7_woojin.sh -z
+  327  cd output/
+  328  ls
+  329  ll
+  330  cd ..
+  331  rm -rf output
+  332  compress
+  333  sudo yum install compress
+  334  gzip
+  335  bzip2
+  336  sudo yum install bzip2
+  337  compress
+  338  sudo yum install compress
+  339  sudo yum install ncompress
+  340  vi assign7_woojin.sh 
+  341  assign7_woojin.sh 
+  342  cd ouput
+  343  ls
+  344  cd ..
+  345  rm -rf ouput
+  346  assign7_woojin.sh -z
+  347  cd ouput
+  348  cd output/
+  349  ls
+  350  ll
+  351  cd ..
+  352  rm -rf output/
+  353  vi assign7_woojin.sh 
+  354  assign7_woojin.sh -z
+  355  cd output/
+  356  ls
+  357  ll
+  358  cd ..
+  359  rm -rf output
+  360  where 
+  361  which
+  362  find assign7_woojin.sh 
+  363  cd ..
+  364  find assign7_woojin.sh 
+  365  vi assign7
+  366  cd bin
+  367  vi assign7_woojin.sh 
+  368  ls
+  369  assign7_woojin.sh -g
+  370  cd output/
+  371  ls
+  372  cd ..
+  373  rm -rf output
+  374  assign7_woojin.sh -b
+  375  cd output/
+  376  ls
+  377  cd ..
+  378  rm -rf output
+  379  clear
+  380  assign7_woojin.sh 
+  381  cd output/
+  382  ls
+  383  id addr
+  384  clear
+  385  ip addr
+  386  cd bin
+  387  ls
+  388  vi assign5_woojin.sh 
+  389  :
+  390  clear
+  391  ls
+  392  vi assign6_woojin.sh 
+  393  clear
+  394  ls
+  395  vi assign5_woojin.sh
+  396  ls
+  397  vi assign4_woojin.sh 
+  398  ls
+  399  vi assign6_woojin.sh 
+  400  ls
+  401  vi ex9.sh 
+  402  clear
+  403  sudo yum install cups
+  404  rpm -qa | grep cups
+  405  clear
+  406  sudo systemctl enable cups
+  407  sudo systemctl start cups
+  408  sudo systemctl status cups
+  409  clear
+  410  sudo firewall-cmd --state
+  411  sudo firewall-cmd --list-ports
+  412  sudo firewall-cmd --permanent --add-port=631/tcp
+  413  sudo firewall-cmd --list-ports
+  414  sudo firewall-cmd --permanent --add-port=631/udp
+  415  sudo firewall-cmd --list-ports
+  416  sudo firewall-cmd --reload
+  417  sudo firewall-cmd --list-ports
+  418  sudo cupsctl --remote-admin
+  419  sudo systemctl restart cups
+  420  sudo systemctl status cups
+  421  clear
+  422  ifconfig
+  423  sudo yum install ifconfig
+  424  infonfig
+  425  ifconfig
+  426  ip addr
+  427  clear
+  428  lpstat -d
+  429  python --version
+  430  rpm -qa | grep wget
+  431  sudo yum install yum-utils make wget
+  432  sudo yum-builddep python
+  433  python --version
+  434  clear
+  435  mkdir python3-install
+  436  cd python3-install/
+  437  ls
+  438  clear
+  439  wget https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz
+  440  sudo poweroff
+  441  cd bin
+  442  vi assign7_woojin.sh 
+  443  exit
+  444  sudo poweroff
+  445  ls
+  446  cd python3-install/
+  447  ls
+  448  gunzip Python-3.6.4.tgz
+  449  ls
+  450  tar -xvf Python-3.6.4.tar
+  451  ls
+  452  cd Python-3.6.4
+  453  ls
+  454  ./configure
+  455  make
+  456  sudo make install
+  457  ls /usr/local/bin | grep python
+  458  cd
+  459  python --version
+  460  vi .bashrc
+  461  . .bashrc
+  462  python --version
+  463  vi .bashrc
+  464  . .bashrc
+  465  python --version
+  466  python mikeTest.py
+  467  sudo poweroff
+  468  sudo vim /etc/vconsole.conf
+  469  sudo reboot
+  470  ls
+  471  mkdir tmp
+  472  ls
+  473  cd tmp
+  474  ls
+  475  cd ..
+  476  rm -rf tmp
+  477  clear
+  478  mkdir tmp
+  479  cd tmp
+  480  pwd
+  481  yum group install "Development Tools"
+  482  clear
+  483  sudo yum group install "Development Tools"
+  484  yum install ncurses-devel ncurses
+  485  sudo yum install ncurses-devel ncurses
+  486  ls
+  487  wget https://sourceforge.net/projects/nsnake/files/GNU-Linux/nsnak-3.0.1.tar.gz
+  488  wget https://sourceforge.net/projects/nsnake/files/GNU-Linux/nsnake-3.0.1.tar.gz
+  489  ls
+  490  cd
+  491  cd bin
+  492  ls
+  493  vi assign7_woojin.sh 
+  494  cd ..
+  495  cd tmp
+  496  ls
+  497  gunzip nsnake-3.0.1.tar.gz 
+  498  ls
+  499  tar xvf nsnake-3.0.1.tar
+  500  cd
+  501  ls
+  502  clear
+  503  ls
+  504  assign7_woojin.sh
+  505  assign7_woojin.sh -b
+  506  ls
+  507  cd restore/
+  508  ls
+  509  bunzip2 Midterm.tar.bz2
+  510  ls
+  511  tar xvf Midterm.tar
+  512  ls
+  513  cd Midterm
+  514  ls
+  515  cd ..
+  516  ls
+  517  cd ..
+  518  ls
+  519  rm -rf restore/
+  520  ls
+  521  cd tmp
+  522  ls
+  523  cd nsnake-3.0.1
+  524  ls
+  525  clear
+  526  make
+  527  make install
+  528  clear
+  529  sudo make install
+  530  sudo vi /etc/vconsole.con
+  531  sudo vi /etc/vconsole.conf
+  532  clear
+  533  nsnake
+  534  ls
+  535  cd src
+  536  ls
+  537  cd Interface/
+  538  ls
+  539  vi Layout.o
+  540  ls
+  541  cd Menu/
+  542  ls
+  543  cd ..
+  544  ls
+  545  cd ..
+  546  ls
+  547  vi main.o
+  548  nano
+  549  ls
+  550  nano main.o
+  551  ls
+  552  vi main.cpp
+  553  ls
+  554  cd Interface/
+  555  ls
+  556  vi LayoutGame.cpp
+  557  nsnake
+  558  clear
+  559  sudo make uninstall
+  560  cd ..
+  561  ls
+  562  sudo make uninstall
+  563  make clean
+  564  make
+  565  sudo make install
+  566  nsnake
+  567  ls
+  568  cd src
+  569  ls
+  570  cd Interface/
+  571  ls
+  572  vi LayoutGame.cpp
+  573  cd ..
+  574  ls
+  575  cd Config/
+  576  ls
+  577  c d..
+  578  cd In
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd Interface/
+  583  ls
+  584  cd Menu/
+  585  ls
+  586  cd ..
+  587  ls
+  588  cd ..
+  589  ls
+  590  cd Config/
+  591  ls
+  592  vi Globals.cpp
+  593  ls
+  594  vi INI.cpp
+  595  cd ..
+  596  ls
+  597  vi main.cpp
+  598  cd ..
+  599  ls
+  600  cd deps/
+  601  ls
+  602  cd commander/
+  603  ls
+  604  vi commander.c
+  605  ls
+  606  cd ..
+  607  ls
+  608  cd ..
+  609  ls
+  610  cd src
+  611  ls
+  612  cd Interface/
+  613  ls
+  614  vi LayoutMainMenu.cpp
+  615  ls
+  616  vi LayoutFirstTime.cpp
+  617  ls
+  618  vi LayoutMainMenu.cpp
+  619  cd ..
+  620  cd .
+  621  .ls
+  622  cd ..
+  623  ls
+  624  sudo make uninstall
+  625  make clean
+  626  make
+  627  sudo make install
+  628  nsnake
+  629  sudo poweroff
+  630  host
+  631  hostname -I
+  632  cd /var/www/html
+  633  ls
+  634  sudo poweroff
+  635  clear
+  636  sudo systemctl status smb
+  637  sudo firewall-cmd --list-poerts
+  638  sudo firewall-cmd --list-ports
+  639  sudo firewall-cmd --list-service
+  640  sudo yum install smb
+  641  sudo yum install samba
+  642  sudo systemctl status smb
+  643  clear
+  644  sudo firewall-cmd --list-service
+  645  sudo poweroff
+  646  ll
+  647  yum remove samba*
+  648  sudo yum install samba* -y
+  649  sudo yum remove samba*
+  650  sudo yum install samba* -y
+  651  firewall-cmd --permanent --zone=public --add-service=samba
+  652  sudo firewall-cmd --permanent --zone=public --add-service=samba
+  653  sudo firewall-cmd --reload
+  654  sudo cp /etc/samba/smb.conf /etc/samba/smb.conf/orig
+  655  sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.orig
+  656  midir -p /srv/samba/anonymous
+  657  mkdir -p /srv/samba/anonymous
+  658  sudo mkdir -p /srv/samba/anonymous
+  659  sudo chmod -R 0775 /srv/samba/anonymous
+  660  sudo chown -R nobody:nobody /srv/samba/anonymous
+  661  sudo chcon -t samba_share_t /srv/samba/anonymous
+  662  sudo vi /etc/samba/smb.conf
+  663  sudo systemctl enable smb.service
+  664  sudo cp /etc/samba/smb.conf.orig /etc/samba/smb.conf
+  665  sudo vi /etc/samba/smb.conf
+  666  testparm
+  667  sudo systemctl enable smb.service
+  668  sudo systemctl 
+  669  sudo systemctl enable nmb.service
+  670  sudo systemctl start smb.service
+  671  sudo systemctl start nmb.service
+  672  groupadd smbgrp
+  673  sudo groupadd smbgrp
+  674  sudo usermod osys1000 -aG smbgrp
+  675  smbpasswd -a osys1000
+  676  sudo smbpasswd -a osys1000
+  677  sudo midir -p /srv/samba/secure
+  678  sudo mkdir -p /srv/samba/secure
+  679  sudo chmod -R 0770 /srv/samba/secure
+  680  sudo chown -R root:smbgrp /srv/samba/secure
+  681  sudo chcon -t samba_share_t /srv/samba/secure
+  682  sudo vi /etc/samba/smb.conf
+  683  testparm
+  684  systemctl restart smb.service
+  685  systemctl restart nmb.service
+  686  sudo vi /etc/samba/smb.conf
+  687  systemctl restart smb.service
+  688  systemctl restart nmb.service
+  689  ip addr
+  690  sudo vi /etc/samba/smb.conf
+  691  systemctl restart smb.service
+  692  systemctl restart nmb.service
+  693  cd /srv/samba/secure/
+  694  ll
+  695  sudo cd /srv/samba/secure
+  696  ll
+  697  sudo ls /srv/samba/secure
+  698  ls -l /srv/samba/
+  699  sudo chmod 775 /srv/samba/secure
+  700  cd /srv/samba/secure/
+  701  ll
+  702  sudo vi /etc/samba/smb.conf
+  703  history | grep firewall
+  704  ifconfig
+  705  ip addr
+  706  testparm
+  707  testparm | more
+  708  ll
+  709  ls
+  710  sudo vi /etc/samba/smb.conf
+  711  systemctl restart smb.service
+  712  systemctl restart nmb.service
+  713  sudo vi /etc/samba/smb.conf
+  714  systemctl restart smb.service
+  715  systemctl restart nmb.service
+  716  systemctl restart smb.service
+  717  sudo vi /etc/samba/smb.conf
+  718  ll
+  719  cd ..
+  720  ll
+  721  systemctl restart smb.service
+  722  sudo vi /etc/samba/nmb.conf
+  723  systemctl restart nmb.service
+  724  sudo firewall-cmd --permanent --zone=public --add-service=samba
+  725  sudo firewall-cmd --reload
+  726  sudo vi /etc/samba/nmb.conf
+  727  sudo vi /etc/samba/smb.conf
+  728  ll
+  729  ls
+  730  pwd
+  731  cd secure/
+  732  ls
+  733  ll
+  734  cd
+  735  sudo poweroff
+  736  ip addr
+  737  sudo poweroff
+  738  yum install https://download.postgresql.org/pub/repos/yum/11/redhat/rhel-7-x86_64/pgdg-centos11-11-2.noarch.rpm
+  739  sudo yum install https://download.postgresql.org/pub/repos/yum/11/redhat/rhel-7-x86_64/pgdg-centos11-11-2.noarch.rpm
+  740  yum install postgresql11
+  741  sudo yum install postgresql11
+  742  sudo yum install postgresql11-server
+  743  sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
+  744  systemctl enable postgresql-11
+  745  systemctl start postgresql-11
+  746  sudo service postgresql initdb
+  747  postgresql-setup initdb
+  748  sudo postgresql-setup initdb
+  749  sudo /usr/pgsql-11/bin/postgresql-setup initdb
+  750  postgresql
+  751  which
+  752  where
+  753  which postgresql-setup
+  754  which postgresql
+  755  postgresql-setup initdb
+  756  sudo yum install postgresql11
+  757  sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
+  758  sudo systemctl enable postgresql-11
+  759  sudo systemctl start postgresql-11
+  760  postgresql-setup initdb
+  761  su
+  762  sudo yum install https://download.postgresql.org/pub/repos/yum/11/redhat/rhel-7-x86_64/pgdg-centos11-11-2.noarch.rpm
+  763  sudo yum install postgresql11
+  764  sudo yum install postgresql11-server
+  765  /usr/pgsql-11/bin/postgresql-11-setup initdb
+  766  sudo /usr/pgsql-11/bin/postgresql-11-setup initdb
+  767  sudo systemctl enable postgresql-11
+  768  sudo systemctl start postgresql-11
+  769  sudo systemctl status postgresql-11
+  770  postgresql-setup
+  771  postgresql-11
+  772  postgresql-setup initdb
+  773  exit
+  774  postgresql-setup
+  775  sudo shutdown -r now
+  776  ip addr
+  777  su
+  778  ip addr
+  779  vi /etc/exports
+  780  sudo vi /etc/exports
+  781  exportfs -r
+  782  sudo exportfs -r
+  783  ls
+  784  cd /nfsfileshare/
+  785  ls
+  786  touch test2
+  787  ls
+  788  rm test
+  789  rm test2
+  790  ll
+  791  sudo poweroff
+  792  cd heroku/
+  793  ls
+  794  vi package.json 
+  795  vi postgresql.conf
+  796  psql
+  797  psql -U postgres -c 'SHOW config_file'
+  798  sudo psql -U postgres -c 'SHOW config_file'
+  799  cd etc
+  800  cd /etc
+  801  ls
+  802  which psql
+  803  cd /bin/postgresql
+  804  locate postgresql.conf
+  805  sudo updatedb
+  806  cd /var/lib/pgsql/data/
+  807  su
+  808  sudo su postgres
+  809  ls
+  810  cd
+  811  cd heroku/
+  812  ls
+  813  cd ..
+  814  ls
+  815  cd myapp/
+  816  ls
+  817  cd osys2040-assignment-2s
+  818  cd osys2040-assignment-2/
+  819  ls
+  820  cd src
+  821  ls
+  822  cd utils/
+  823  ls
+  824  vi PostgresUtil.js 
+  825  ip addr
+  826  vi PostgresUtil.js 
+  827  sudo su postgres
+  828  pqsl postgres -U osys1000
+  829  psql postgres -U osys1000
+  830  vi PostgresUtil.js 
+  831  ls
+  832  cd ..
+  833  ls
+  834  cd ..
+  835  ls
+  836  cd osys2040-assignment-2/
+  837  git push https://github.com/kh3996/osys2040-assignment-2
+  838  ls
+  839  cd ..
+  840  ls
+  841  git push https://github.com/kh3996/osys2040-assignment-2
+  842  cd osys2040-assignment-2/
+  843  ls
+  844  ll
+  845  vi src
+  846  cd..
+  847  cd ..
+  848  cd osys2040-assignment-2/
+  849  cd src/
+  850  ls
+  851  cd utils/
+  852  ll
+  853  vi po
+  854  vi PostgresUtil.js 
+  855  git push https://github.com/kh3996/osys2040-assignment-2
+  856  cd ..
+  857  git push https://github.com/kh3996/osys2040-assignment-2.git
+  858  cd sr
+  859  cd src
+  860  ls
+  861  cd utils/
+  862  ls
+  863  git push https://github.com/kh3996/osys2040-assignment-2.git
+  864  git pus
+  865  git push
+  866  cd ..
+  867  cp ./osys2040-assignment-2/src/utils/PostgresUtil.js ./
+  868  cd osys2040-assignment-2/
+  869  ls
+  870  git clone https://github.com/kh3996/osys2040-assignment-2.git
+  871  ll
+  872  cd src
+  873  cd utils/
+  874  vi PostgresUtil.js 
+  875  ll
+  876  cd ..
+  877  git push https://github.com/kh3996/osys2040-assignment-2.git
+  878  cd ..
+  879  ls
+  880  cd ..
+  881  ls
+  882  cd myapp/
+  883  ls
+  884  rm -rf osys2040-assignment-2/
+  885  git clone https://github.com/kh3996/osys2040-assignment-2.git
+  886  ll
+  887  cd osys2040-assignment-2/
+  888  ls
+  889  cd src
+  890  ls
+  891  cd utils/
+  892  ls
+  893  cd PostgresUtil.js 
+  894  vi PO
+  895  vi PostgresUtil.js 
+  896  pwd
+  897  cd ../../../PostgresUtil.js ./
+  898  cp ../../../PostgresUtil.js ./
+  899  ll
+  900  vi PostgresUtil.js 
+  901  git push https://github.com/kh3996/osys2040-assignment-2.git
+  902  git checkout https://github.com/kh3996/osys2040-assignment-2.git
+  903  cd ..
+  904  git checkout https://github.com/kh3996/osys2040-assignment-2.git
+  905  git ./ push https://github.com/kh3996/osys2040-assignment-2.git
+  906  git push ./ https://github.com/kh3996/osys2040-assignment-2.git
+  907  git push https://github.com/kh3996/osys2040-assignment-2.git
+  908  git push ./* https://github.com/kh3996/osys2040-assignment-2.git
+  909  ll
+  910  cd src
+  911  ls
+  912  cd utils/
+  913  ls
+  914  git push ./* https://github.com/kh3996/osys2040-assignment-2.git
+  915  cd ..
+  916  git push origin master
+  917  git push origin master --force
+  918  git add .
+  919  git commit -m "postgresql setting"
+  920  git push origin https://github.com/kh3996/osys2040-assignment-2.git
+  921  git push origin osys2040-assignment-2
+  922  git push origin https://github.com/kh3996/osys2040-assignment-2
+  923  git push origin https://github.com/kh3996/osys2040-assignment-2.git
+  924  git push origin kh3996/osys2040-assignment-2
+  925  git push origin master
+  926  cd ..
+  927  ls
+  928  cd osys2040-assignment-2/
+  929  cd sc
+  930  cd src
+  931  cd utils/
+  932  ls
+  933  vi PostgresUtil.js 
+  934  git push origin master
+  935  git add .
+  936  git commit -m "postgresql setting"
+  937  git push origin master
+  938  vi PostgresUtil.js 
+  939  ip addr
+  940  vi PostgresUtil.js 
+  941  git add .
+  942  git commit -m "postgresql setting"
+  943  git push origin master
+  944  vi PostgresUtil.js 
+  945  ls
+  946  node PostgresUtil.js 
+  947  node
+  948  sudo node PostgresUtil.js
+  949  yum install -y gcc-c++ make
+  950  sudo yum install -y gcc-c++ make
+  951  curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
+  952  sudo yum install -y nodejs
+  953  npm --version
+  954  node PostgresUtil.js 
+  955  vi PostgresUtil.js 
+  956  node PostgresUtil.js 
+  957  ls
+  958  cp PostgresUtil.js PostgresUtil.js.back
+  959  vi PostgresUtil.js
+  960  node PostgresUtil.js
+  961  npm init -y
+  962  ls
+  963  vi package.json 
+  964  npm install --save pg
+  965  ls
+  966  cp PostgresUtil.js.back PostgresUtil.js
+  967  node PostgresUtil.js
+  968  vi PostgresUtil.js
+  969  node PostgresUtil.js
+  970  vi PostgresUtil.js
+  971  node PostgresUtil.js
+  972  vi PostgresUtil.js
+  973  node PostgresUtil.js
+  974  vi PostgresUtil.js
+  975  node PostgresUtil.js
+  976  psql -U osys1000 -h127.0.0.1 chat_server
+  977  psql -U osys1000
+  978  psql -U chat_server
+  979  psql
+  980  sudo su postgres
+  981  psql -U osys1000 -h127.0.0.1 chat_server
+  982  ll
+  983  cd node_modules/
+  984  ls
+  985  cd ..
+  986  ls
+  987  cd ..
+  988  ls
+  989  pg
+  990  cd src/
+  991  cd utils/
+  992  pg
+  993  ls
+  994  cd node_modules/
+  995  ls
+  996  pg
+  997  cd pg
+  998  ls
+  999  sudo poweroff
+ 1000  ls
+ 1001  cd myapp/
+ 1002  ls
+ 1003  cd osys2040-assignment-2/
+ 1004  ls
+ 1005  cd src
+ 1006  ls
+ 1007  cd utils/
+ 1008  ls
+ 1009  cd ..
+ 1010  vi server.js
+ 1011  cd utils/
+ 1012  ls
+ 1013  vi PostgresUtil.js
+ 1014  ls
+ 1015  cp PostgresUtil.js.back PostgresUtil.js
+ 1016  vi PostgresUtil.js
+ 1017  cd ..
+ 1018  ls
+ 1019  cp ./utils/node_modules ./
+ 1020  cp -f ./utils/node_modules ./
+ 1021  cp -rf ./utils/node_modules ./
+ 1022  ls
+ 1023  cd utils/
+ 1024  ls
+ 1025  cd ..
+ 1026  cp ./utils/package.json ./
+ 1027  node server.js
+ 1028  vi server.js
+ 1029  ls
+ 1030  rm -rf node_modules/
+ 1031  rm package.json 
+ 1032  ls
+ 1033  cd utils/
+ 1034  ls
+ 1035  vi PostgresUtil.js
+ 1036  history
+ 1037  history > history.txt
+ 1038  cd history.txt 
+ 1039  vi history.txt 
+ 1040  ls
+ 1041  rm history.txt 
+ 1042  git add.
+ 1043  git add .
+ 1044  git commit -m "postgresql setting"
+ 1045  git push origin https://github.com/kh3996/osys2040-assignment-2.git
+ 1046  history | grep 'git'
+ 1047  git push origin https://github.com/kh3996/osys2040-assignment-2.git
+ 1048  git add.
+ 1049  git add .
+ 1050  git commit -m "postgresql setting"
+ 1051  git push origin master
+ 1052  vi PostgresUtil.js
+ 1053  ls
+ 1054  cd ..
+ 1055  ls
+ 1056  vi server.js
+ 1057  cd
+ 1058  cd bin
+ 1059  ls
+ 1060  cp assign7_woojin.sh ex16.sh
+ 1061  cp ex16.sh compress_functions.sh
+ 1062  vi ex16.sh
+ 1063  vi compress_functions.sh
+ 1064  vi ex16
+ 1065  vi ex16.sh
+ 1066  vi compress_functions.sh 
+ 1067  vi ex16.sh
+ 1068  ls
+ 1069  cd source/
+ 1070  ls
+ 1071  cd ..
+ 1072  cd output
+ 1073  ls
+ 1074  cd ..
+ 1075  ls
+ 1076  rm -rf output
+ 1077  ex16.sh
+ 1078  cd output
+ 1079  ls
+ 1080  cd ..
+ 1081  rm -rf output
+ 1082  vi ex16.sh
+ 1083  ex16.sh -z
+ 1084  cd output
+ 1085  ll
+ 1086  cd ..
+ 1087  rm -rf output
+ 1088  ex16.sh -g
+ 1089  cd output
+ 1090  ls
+ 1091  cd ..
+ 1092  rm -rf output
+ 1093  ex16.sh -b
+ 1094  cd output
+ 1095  ls
+ 1096  cd ..
+ 1097  vi ex16.sh
+ 1098  cd
+ 1099  ls
+ 1100  cd /
+ 1101  ls
+ 1102  cd src
+ 1103  ls
+ 1104  cd etc
+ 1105  ls
+ 1106  cd ..
+ 1107  ls
+ 1108  cd srv
+ 1109  ls
+ 1110  cd  samba/
+ 1111  ls
+ 1112  cd secure
+ 1113  cp /home/osys1000/bin/ex16.sh 
+ 1114  cp /home/osys1000/bin/ex16.sh ./
+ 1115  cp /home/osys1000/bin/compress_functions.sh.sh ./
+ 1116  cp /home/osys1000/bin/compress_functions.sh ./
+ 1117  ls
+ 1118  cd
+ 1119  clear
+ 1120  ip addr
+ 1121  sudo firewall-cmd --state
+ 1122  cd /srv/samba/secure/
+ 1123  ls
+ 1124  vi test2.txt
+ 1125  ls
+ 1126  cd
+ 1127  ls
+ 1128  cd /nfsfileshare/
+ 1129  ls
+ 1130  cat hi
+ 1131  ls
+ 1132  clear
+ 1133  ls
+ 1134  ll
+ 1135  heroku
+ 1136  cd
+ 1137  cd myapp/
+ 1138  ls
+ 1139  cd osys2040-assignment-2/
+ 1140  cd src
+ 1141  cd utils/
+ 1142  heroku pg:psql chat_server
+ 1143  heroku pg:psql
+ 1144  heroku pg:psql DATABASE_URL
+ 1145  heroku pg:psql -a myapp
+ 1146  ls
+ 1147  cd ..
+ 1148  ls
+ 1149  cd ..
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd ..
+ 1154  heroku pg:psql -a myapp
+ 1155  ll
+ 1156  sudo heroku pg:psql -a myapp
+ 1157  ls
+ 1158  cd myapp/
+ 1159  ls
+ 1160  cd ..
+ 1161  cd heroku/
+ 1162  ls
+ 1163  cd node_modules/
+ 1164  ls
+ 1165  ll
+ 1166  cd
+ 1167  ls
+ 1168  cd myapp/
+ 1169  ll
+ 1170  cd osys2040-assignment-2/
+ 1171  ll
+ 1172  sudo su postgres
+ 1173  history > history.txt

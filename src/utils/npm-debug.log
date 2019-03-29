@@ -1,8 +1,8 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/bin/npm', 'start' ]
+1 verbose cli [ '/usr/bin/node', '/bin/npm', 'run', 'watch-heroku' ]
 2 info using npm@3.10.10
 3 info using node@v6.16.0
-4 verbose stack Error: missing script: start
+4 verbose stack Error: missing script: watch-heroku
 4 verbose stack     at run (/usr/lib/node_modules/npm/lib/run-script.js:151:19)
 4 verbose stack     at /usr/lib/node_modules/npm/lib/run-script.js:61:5
 4 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
@@ -14,10 +14,10 @@
 4 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:367:13)
 5 verbose cwd /home/osys1000/myapp/osys2040-assignment-2/src/utils
 6 error Linux 3.10.0-957.5.1.el7.x86_64
-7 error argv "/usr/bin/node" "/bin/npm" "start"
+7 error argv "/usr/bin/node" "/bin/npm" "run" "watch-heroku"
 8 error node v6.16.0
 9 error npm  v3.10.10
-10 error missing script: start
+10 error missing script: watch-heroku
 11 error If you need help, you may report this error at:
 11 error     <https://github.com/npm/npm/issues>
 12 verbose exit [ 1, true ]
